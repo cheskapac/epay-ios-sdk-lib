@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
 
   s.author              = { "cheskapac" => "cheskapac@gmail.com" }
   s.source              = { :git => "https://github.com/cheskapac/epay-ios-sdk-lib.git", :tag => s.version.to_s }
+  s.license          = 'MIT'
 
   s.platform            = :ios, '6.0'
   s.source_files        = 'epay/*.h'
